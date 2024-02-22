@@ -1,0 +1,41 @@
+#color-box
+{
+    margin:auto;
+    height:400px;
+    width:85%;
+    border:4px solid black;
+    margin-top:30px;
+    margin-bottom:30px;
+
+    background-color: aquamarine;
+}
+
+#change-color-btn
+{
+    background-color: linen;
+    border: 1px solid black;
+    font-size:15px;
+    font-weight:bold;
+}
+
+#change-color-btn:hover
+{
+    font-size:17px;
+}
+
+@media screen and (min-width:768px)
+{
+    #color-box
+    {
+        width:65%;
+    }
+}
+
+@media screen and (min-width:992px)
+{
+    #color-box
+    {
+        width:40%;
+    }
+}
+
